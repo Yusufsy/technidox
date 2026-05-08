@@ -7,7 +7,7 @@ import { footerColumns } from '~/utils/content'
     <div class="site-container grid gap-12 py-14 lg:grid-cols-[1.1fr,1fr]">
       <div class="max-w-md space-y-5">
         <AppLogo />
-        <p class="text-xl font-semibold leading-relaxed text-ink sm:text-2xl">
+        <p class="text-[18px] font-semibold leading-relaxed text-ink">
           AI-native documentation infrastructure for engineering teams that demand quality, speed, and measurable impact.
         </p>
         <div class="flex gap-4 text-primary">
@@ -34,7 +34,7 @@ import { footerColumns } from '~/utils/content'
       <div class="grid gap-10 sm:grid-cols-3">
         <div v-for="column in footerColumns" :key="column.title">
           <h3 class="text-2xl font-extrabold text-ink">{{ column.title }}</h3>
-          <ul class="mt-5 space-y-3 text-base font-medium text-body sm:text-lg">
+          <ul class="mt-5 space-y-3 text-[16px] font-medium text-body">
             <li v-for="link in column.links" :key="link">
               <a href="#" class="transition hover:text-primary">{{ link }}</a>
             </li>

@@ -1,3 +1,3 @@
-- Pixelay capture has not been generated in this environment yet.
-- After installing dependencies, capture desktop and mobile overlays and save them here as `pixelay-desktop.png` and `pixelay-mobile.png`.
-- Recheck font rendering and spacing against the supplied PNG references before final submission.
+- Desktop Pixelay comparison was completed and saved as `pixelay-desktop.png`.
+- No mobile Pixelay comparison was produced because no mobile design was available in the supplied Figma.
+- The remaining visible differences are small spacing and typography variances, mainly in header alignment and section scaling.

@@ -14,10 +14,10 @@ watch(
 
 <template>
   <header class="sticky top-0 z-50 border-b border-primary/10 bg-white/90 backdrop-blur-md">
-    <div class="site-container flex items-center justify-between py-4">
+    <div class="site-container flex items-center justify-between py-3">
       <AppLogo />
 
-      <nav class="hidden items-center gap-8 text-base font-semibold text-primary lg:flex">
+      <nav class="hidden items-center gap-10 text-[15px] font-semibold text-primary lg:flex">
         <NuxtLink
           v-for="link in navigationLinks"
           :key="link.to"
@@ -30,7 +30,7 @@ watch(
       </nav>
 
       <div class="hidden lg:block">
-        <NuxtLink to="/pricing" class="cta-button rounded-xl px-6 py-2.5">
+        <NuxtLink to="/pricing" class="cta-button h-12 rounded-xl px-7 py-0 text-[15px]">
           Get Started
         </NuxtLink>
       </div>

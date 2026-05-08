@@ -7,7 +7,7 @@ import technidoxLogo from '~/technidox-logo.png'
     <img
       :src="technidoxLogo"
       alt="TechniDox"
-      class="h-10 w-auto sm:h-12"
+      class="h-9 w-auto sm:h-10"
     >
   </NuxtLink>
 </template>

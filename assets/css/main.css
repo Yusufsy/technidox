@@ -39,15 +39,15 @@
   }
 
   .section-label {
-    @apply mb-4 inline-flex rounded-full bg-secondary/10 px-3.5 py-1.5 text-xs font-extrabold uppercase tracking-[0.24em] text-secondary sm:text-sm;
+    @apply mb-4 inline-flex rounded-full bg-secondary/10 px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-[0.22em] text-secondary sm:text-xs;
   }
 
   .section-title {
-    @apply text-[2rem] font-extrabold leading-[1.08] text-primary sm:text-[2.4rem] lg:text-[3.2rem];
+    @apply text-[1.75rem] font-extrabold leading-[1.08] text-primary sm:text-[2.05rem] lg:text-[2.65rem];
   }
 
   .section-copy {
-    @apply mx-auto max-w-4xl text-[0.95rem] font-semibold leading-relaxed text-[#666874] sm:text-base lg:text-lg;
+    @apply mx-auto max-w-4xl text-[0.9rem] font-medium leading-relaxed text-[#666874] sm:text-[0.95rem] lg:text-[1rem];
   }
 
   .glass-card {
@@ -67,11 +67,11 @@
   }
 
   .metric-card {
-    @apply rounded-[26px] border border-white/20 bg-white/[0.07] p-5 backdrop-blur sm:p-6;
+    @apply rounded-[26px] border border-white/20 bg-white/[0.07] p-4 backdrop-blur sm:p-5;
   }
 
   .icon-tile {
-    @apply inline-flex h-14 w-14 items-center justify-center rounded-[20px] bg-primary/10 text-primary sm:h-16 sm:w-16 sm:rounded-[22px];
+    @apply inline-flex h-12 w-12 items-center justify-center rounded-[18px] bg-primary/10 text-primary sm:h-14 sm:w-14 sm:rounded-[20px];
   }
 }
 
