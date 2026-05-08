@@ -1,0 +1,113 @@
+# Frontend Developer Assignment
+
+## Goal
+
+Recreate the provided Figma **home page design** using the technologies we use in production, and verify layout fidelity using **Pixelay**.
+
+## Requirements
+
+* Use **Nuxt 3 + Vue 3 + TailwindCSS** OR **Twig + TailwindCSS**.
+* **Do not** use React or Next.js.
+* Match the design from Figma as closely as possible.
+* Make it **responsive** (desktop + mobile).
+* Include at least **one interactive element** (e.g. mobile menu toggle, accordion).
+* **Run Pixelay** to compare your page to the Figma design:
+
+  * Capture at least **two overlays** (Desktop and Mobile).
+  * Save them as images (`pixelay-desktop.png`, `pixelay-mobile.png`).
+  * Add a short `notes.md` with 1–3 bullet points on visible differences (e.g. fonts, assets, spacing).
+
+## Deliverables
+
+* A GitHub (or GitLab) repository link.
+* A short **README** with:
+
+  * URL Link (Hosted).  Github, Firebase, or other free webhost.
+  * Any notes on tradeoffs, shortcuts, or things you would do with more time.
+* A **/pixelay** folder (or `/docs`) in your repo containing:
+
+  * `pixelay-desktop.png`
+  * `pixelay-mobile.png`
+  * `notes.md`
+
+## Timebox
+
+* You have **4 days** to complete the assignment.
+* Please spend **no more than 6–8 hours total**.
+* Focus on structure, responsiveness, and clean code — not production-ready polish.
+
+---
+
+✅ This communicates:
+
+* **Clear scope** (home page only, responsive, 1 interaction).
+* **Time fairness** (cap at 6–8 hours, but spread across 4 days).
+* **Pixelay requirement** (objective fidelity check).
+* **Deliverables** (repo + README + Pixelay evidence).
+
+---
+
+# Frontend Developer Assignment — Evaluation Rubric
+
+Each submission is scored out of **100 points**. Add notes for strengths/weaknesses.
+
+---
+
+## 1. Visual Fidelity (30 pts)
+
+* **25–30**: Layout matches Figma very closely. Pixelay overlays show only minor, consistent variances (2–4px). Typography and spacing are correct.
+* **15–24**: Mostly correct, but Pixelay highlights spacing/line-height drift or a few mismatched components.
+* **0–14**: Multiple sections visibly misaligned in Pixelay overlays, or significant design deviations.
+
+---
+
+## 2. Responsiveness (20 pts)
+
+* **16–20**: Works well on desktop and mobile. Pixelay mobile overlay is clean, layout reflows predictably.
+* **10–15**: Mobile support present but spacing/stacking issues visible in Pixelay.
+* **0–9**: Mobile layout broken or missing.
+
+---
+
+## 3. Code Quality & Structure (25 pts)
+
+* **20–25**: Clean, modular components/templates, readable, good Tailwind usage, sensible file structure.
+* **12–19**: Mostly clean, but some duplication or confusing naming.
+* **0–11**: Hard to follow, messy structure, poor Tailwind usage.
+
+---
+
+## 4. Interactivity (10 pts)
+
+* **8–10**: Interaction(s) work smoothly (e.g. menu toggle, accordion), accessible and intuitive.
+* **4–7**: Works but clunky or incomplete.
+* **0–3**: Missing or broken.
+
+---
+
+## 5. Documentation & Pixelay Evidence (10 pts)
+
+* **8–10**: README is clear, explains setup and tradeoffs, and includes Pixelay screenshots + notes.
+* **4–7**: README has setup notes; Pixelay evidence incomplete (missing one overlay or minimal notes).
+* **0–3**: README unclear or Pixelay evidence missing.
+
+---
+
+## 6. Bonus (up to +5)
+
+* Thoughtful accessibility (semantic HTML, ARIA, keyboard nav).
+* Light performance optimization (lazy-loading images, Nuxt Image).
+* Notes on CMS integration if using Twig.
+
+---
+
+### Final Score: \_\_\_ / 100 (+bonus if applicable)
+
+**Hire Signal Guide:**
+
+* **85+**: Strong hire — excellent match to stack.
+* **70–84**: Solid — good baseline, some gaps to coach.
+* **50–69**: Weak — major issues, but potential if junior role.
+* **<50**: No hire.
+
+---

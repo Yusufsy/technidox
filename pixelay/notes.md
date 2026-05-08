@@ -1,0 +1,3 @@
+- Pixelay capture has not been generated in this environment yet.
+- After installing dependencies, capture desktop and mobile overlays and save them here as `pixelay-desktop.png` and `pixelay-mobile.png`.
+- Recheck font rendering and spacing against the supplied PNG references before final submission.
